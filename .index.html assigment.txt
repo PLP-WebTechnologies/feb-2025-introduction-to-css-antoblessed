@@ -1,0 +1,67 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking external CSS -->
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+
+    <section class="content">
+        <p>This is a sample paragraph to demonstrate margin, padding, and font styling using CSS. Enjoy the look!</p>
+        <img src="https://via.placeholder.com/200" alt="Placeholder Image" class="featured-image">
+    </section>
+
+    <footer>
+        <p class="footer-text">Created by [Your Name], 2025</p>
+    </footer>
+
+</body>
+</html>
+
+
+CSS
+/* Selector 1: ID selector */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Selector 2: Class selector */
+.content {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Selector 3: Tag selector for image */
+img.featured-image {
+    width: 200px;
+    border: 3px solid #4CAF50;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Extra: Footer text style using class */
+.footer-text {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 40px;
