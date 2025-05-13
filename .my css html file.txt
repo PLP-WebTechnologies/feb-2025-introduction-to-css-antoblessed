@@ -1,0 +1,76 @@
+CSS
+/* style.css */
+
+/* Styling the body */
+body {
+    font-family: 'Arial', sans-serif; /* Set a font */
+    background-color: #f4f4f4; /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Styling elements using a class */
+.header {
+    text-align: center;
+    color: #2a9d8f; /* Greenish color */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text-container {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border color */
+}
+
+/* Styling using ID */
+#main-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border: 5px solid #2a9d8f; /* Border color around the image */
+    padding: 10px;
+}
+
+/* Using a class for links */
+.link-style {
+    color: #e76f51; /* Light red color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.link-style:hover {
+    color: #2a9d8f; /* Change color on hover */
+
+
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <header class="header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+
+    <div class="text-container">
+        <h2>About This Page</h2>
+        <p>This page is styled using external CSS. It demonstrates the use of different selectors, margin, padding, and borders, along with an image and different typography.</p>
+    </div>
+
+    <img id="main-image" src="https://via.placeholder.com/400" alt="Placeholder Image">
+
+    <p>For more information, visit the <a href="https://www.example.com" class="link-style">official website</a>.</p>
+
+</body>
+</html>
